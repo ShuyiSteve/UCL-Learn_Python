@@ -1,0 +1,22 @@
+# This program prompts the user to type in a number and prints the number and double the number.
+#
+# Author: Rae Harbird
+# This problem was created by Rob Miller, DIS, UCL for a Java course.
+#
+# Date: August 2018
+#
+
+
+def twice_number(the_number) :
+    the_number = the_number * 2
+
+
+def main():
+    the_number = int(input("Enter a value for 'number': "))
+    print("The value of 'number' is {}.".format(the_number))
+    twice_number(the_number)
+    print("The value of 'twice_number' is: {}.".format(the_number))
+
+
+if __name__ == "__main__":
+    main()
