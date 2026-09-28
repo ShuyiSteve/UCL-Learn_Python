@@ -11,7 +11,9 @@
 
 def main():
     # Type your code in here
-
+    num = int(input("Enter a value for \'number\': "))
+    print(f"The value of \'number\' is {num}")
+    print(f"The value of \'twice_number\' is {num * 2}")
 
 if __name__ == "__main__":
     main()
