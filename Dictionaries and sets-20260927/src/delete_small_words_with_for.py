@@ -14,7 +14,7 @@ def main():
     words = ["Welcome", "to", "the", "island!"]
 
     print("\n", words)
-    for i in range(len(words)) :
+    for i in range(len(words) - 1, -1, -1) :
         word = words[i]
         print("\ti: {}, {}".format(i, words[i]))
         if len(word) < 4 :      
